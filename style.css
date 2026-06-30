@@ -1,0 +1,14 @@
+body {
+  background: #f5f6fa;
+}
+.card {
+  transition: 0.4s ease;
+}
+.fade-out {
+  opacity: 0;
+  transform: translateX(-20px);
+}
+.fade-in {
+  opacity: 1;
+  transform: translateX(0);
+}
